@@ -1,0 +1,2456 @@
+[
+  {
+    "id": 4748,
+    "start_time": "2026-09-14T10:00:32.826000+02:00",
+    "end_time": "2026-09-14T10:15:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4748,
+      "name": "OPENING CEREMONY",
+      "photo": null,
+      "stage": {
+        "id": 1158,
+        "name": "Main Stage"
+      },
+      "description": "The Shift journey starts here. Join us at the Main Stage as we officially open Shift 2026 and kick off three days of technology, ideas, inspiration and unforgettable experiences.\r\n\r\nLet\u2019s make this Shift one to remember.",
+      "start_time": "2026-09-14T10:00:32.826000+02:00",
+      "end_time": "2026-09-14T10:15:00+02:00",
+      "speakers": [
+        {
+          "id": 528683,
+          "first_name": "Izabel",
+          "last_name": "Jelenic",
+          "full_name": "Izabel Jelenic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/izoo.jpg"
+        },
+        {
+          "id": 500541,
+          "first_name": "Ivan",
+          "last_name": "Brezak Brkan",
+          "full_name": "Ivan Brezak Brkan",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/ibb.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": true,
+    "_stage_name": "Main Stage"
+  },
+  {
+    "id": 4650,
+    "start_time": "2026-09-14T10:15:12.695000+02:00",
+    "end_time": "2026-09-14T10:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4650,
+      "name": "From AI-assisted Coding to Agent-led Execution",
+      "photo": null,
+      "stage": {
+        "id": 1158,
+        "name": "Main Stage"
+      },
+      "description": "Software development is shifting from AI-assisted coding to agent-led execution. This talk introduces meta-SWE: designing environments where autonomous agents can reliably complete long-running software and business workflows. It explores practical patterns\u2014including durable context, reusable skills, orchestration, and validation loops\u2014and shows how engineering discipline is moving from writing every line to building the scaffolding and control systems that make autonomy dependable.",
+      "start_time": "2026-09-14T10:15:12.695000+02:00",
+      "end_time": "2026-09-14T10:45:00+02:00",
+      "speakers": [
+        {
+          "id": 500078,
+          "first_name": "Luis",
+          "last_name": "Velasco",
+          "full_name": "Luis Velasco",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/733a-0o0o0-7Jw7fUb4MyC6wyZjaPqDbQ.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": true,
+    "_stage_name": "Main Stage"
+  },
+  {
+    "id": 4659,
+    "start_time": "2026-09-14T10:45:02.308000+02:00",
+    "end_time": "2026-09-14T11:15:02.308000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4659,
+      "name": "The Year Ahead, or an Attempt to Predict the Near Term Evolution of AI",
+      "photo": null,
+      "stage": {
+        "id": 1158,
+        "name": "Main Stage"
+      },
+      "description": "The frontier AI playbook is being rewritten in real time. Beyond parameter scaling, the next wave of model evolution hinges on inference-time reasoning, tool orchestration, and long-horizon reliability. Benoit offers an unvarnished look at what to expect over the coming year: where the frontier is genuinely accelerating, where current architectures are hitting stubborn walls, and how evolving technical capabilities will reshape real-world applications. Expect a blend of high-level architectural insight and practical reality checks on the open questions defining the field.",
+      "start_time": "2026-09-14T10:45:02.308000+02:00",
+      "end_time": "2026-09-14T11:15:02.308000+02:00",
+      "speakers": [
+        {
+          "id": 527811,
+          "first_name": "Benoit",
+          "last_name": "Schillings",
+          "full_name": "Benoit Schillings",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/benoit.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": true,
+    "_stage_name": "Main Stage"
+  },
+  {
+    "id": 4651,
+    "start_time": "2026-09-14T11:15:47.374000+02:00",
+    "end_time": "2026-09-14T11:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4651,
+      "name": "Built for Humans. Now Agents Are Here.",
+      "photo": null,
+      "stage": {
+        "id": 1158,
+        "name": "Main Stage"
+      },
+      "description": "Netlify was built around a human loop: a developer pushes code, scans the build logs, checks the deploy preview, decides it's good. Every part of the platform , the CLI, the API, the branch workflow it was designed assuming someone was paying attention.\r\n\r\nThen agents started driving it. And things broke in unexpected ways.\r\n\r\nAgents don't scan logs \u2014 they need structured, actionable signals or they retry blindly. Deploy previews designed for human eyeballs don't tell an agent whether the result is correct. CLI output written for readability becomes noise when a machine is parsing it for intent. The branch workflow that feels intuitive to a developer becomes an ambiguous decision tree for an agent with no intuition.\r\n\r\nThis talk is about what Netlify's platform revealed when agents came to work on it \u2014 and what Agent Experience (AX) means in practice: redesigning the surfaces, signals, and feedback loops that platforms expose so that humans and agents can build together without humans becoming the bottleneck.\r\n\r\nAudiences will learn:\r\n\r\n*What concretely breaks in build pipelines, CLI surfaces, and deploy workflows when agents start driving them\r\n*What AX means in practice: actionable signals, machine-readable errors, and feedback loops designed for collaboration\r\n*Why the scarce resource in an agent-assisted world isn't code \u2014 it's the judgment to build systems agents can actually work with.",
+      "start_time": "2026-09-14T11:15:47.374000+02:00",
+      "end_time": "2026-09-14T11:45:00+02:00",
+      "speakers": [
+        {
+          "id": 500939,
+          "first_name": "Dana",
+          "last_name": "Lawson",
+          "full_name": "Dana Lawson",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/f5a7-0o0o0-P7TWoW1JmMxfKDAyrsRGRG.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": true,
+    "_stage_name": "Main Stage"
+  },
+  {
+    "id": 4652,
+    "start_time": "2026-09-14T11:45:25.426000+02:00",
+    "end_time": "2026-09-14T12:15:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4652,
+      "name": "The State of Cloud Native: The Shift Towards AI",
+      "photo": null,
+      "stage": {
+        "id": 1158,
+        "name": "Main Stage"
+      },
+      "description": "With Kubernetes established as the foundation of platform deployment, the cloud native ecosystem is entering a new phase where AI is becoming integral to both established and emerging projects. This talk explores how the community is adapting its tools, patterns, and principles to support AI workloads at scale. It examines how the governance models and community structures that stabilized cloud native are becoming a blueprint for a mature open source AI ecosystem. Attendees will learn how core principles such as openness, vendor neutrality, interoperability, and community-driven development are shaping this next wave of transformation and the shift toward AI.",
+      "start_time": "2026-09-14T11:45:25.426000+02:00",
+      "end_time": "2026-09-14T12:15:00+02:00",
+      "speakers": [
+        {
+          "id": 498588,
+          "first_name": "KATIE",
+          "last_name": "GAMANJI",
+          "full_name": "KATIE GAMANJI",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/katie_gimanji.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": true,
+    "_stage_name": "Main Stage"
+  },
+  {
+    "id": 4653,
+    "start_time": "2026-09-14T12:15:24.915000+02:00",
+    "end_time": "2026-09-14T12:45:24.915000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4653,
+      "name": "Reality Check: Can Engineering & Tech Consulting Survive AI?",
+      "photo": null,
+      "stage": {
+        "id": 1158,
+        "name": "Main Stage"
+      },
+      "description": "There's no shortage of opinions on what AI means for the tech industry. There is a shortage of people willing to share what it actually looks like from inside a tech consultancy navigating that shift in real time.\r\n\r\nNikola Kapraljevi\u0107, CEO of Infinum, a global, AI-native digital transformation agency and consultancy, brings a first-hand perspective. He'll discuss what's really happening to engineering productivity, what the internal numbers show, where the hype ends and the hard problems begin - and why tech consultancies still have a strong case to make. Concrete takeaways for anyone working in tech who wants to know what's actually coming next.",
+      "start_time": "2026-09-14T12:15:24.915000+02:00",
+      "end_time": "2026-09-14T12:45:24.915000+02:00",
+      "speakers": [
+        {
+          "id": 500082,
+          "first_name": "Nikola",
+          "last_name": "Kapraljevic",
+          "full_name": "Nikola Kapraljevic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/5780-0o0o0-Qgy7qxrC6GMJHpHo2t9eNN.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Main Stage"
+  },
+  {
+    "id": 4654,
+    "start_time": "2026-09-15T10:45:57.812000+02:00",
+    "end_time": "2026-09-15T11:15:57.812000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4654,
+      "name": "History of LLMs: The Nemotron Case Study",
+      "photo": null,
+      "stage": {
+        "id": 1158,
+        "name": "Main Stage"
+      },
+      "description": "How have large language models changed over the last few years - and why? Using NVIDIA Nemotron as a case study, this session traces the journey from early Transformer models to today\u2019s faster, more efficient architectures. We\u2019ll explore the real-world challenges behind each shift: understanding longer conversations, generating answers faster, and running larger models with limited memory. Along the way, we\u2019ll see how every architectural breakthrough solves one problem while revealing the next.",
+      "start_time": "2026-09-15T10:45:57.812000+02:00",
+      "end_time": "2026-09-15T11:15:57.812000+02:00",
+      "speakers": [
+        {
+          "id": 498587,
+          "first_name": "IGOR",
+          "last_name": "DMOCHOWSKI",
+          "full_name": "IGOR DMOCHOWSKI",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/igor_dm.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Main Stage"
+  },
+  {
+    "id": 4655,
+    "start_time": "2026-09-15T11:15:00+02:00",
+    "end_time": "2026-09-15T11:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4655,
+      "name": "Leveling Up: A Senior Engineer\u2019s Guidebook",
+      "photo": null,
+      "stage": {
+        "id": 1158,
+        "name": "Main Stage"
+      },
+      "description": "Moving from Junior to Mid-level Software Engineer is about building on what you know: writing cleaner code, picking up speed, and understanding your team. But the leap from Mid to Senior is a new game. Now you\u2019re expected to make architectural decisions, lead across teams, and drive success. I\u2019ll discuss what being a Senior Engineer truly means and what managers look for, even before you have the title. With many experienced engineers working remotely, it\u2019s harder to learn by example. We\u2019ll cover system design, collaboration, and other topics that are often not explained. This sneak peek from my upcoming book (2026), based on my experiences and interviews, will provide you with practical skills and a clear understanding of what it means to be a Senior Engineer.",
+      "start_time": "2026-09-15T11:15:00+02:00",
+      "end_time": "2026-09-15T11:45:00+02:00",
+      "speakers": [
+        {
+          "id": 498578,
+          "first_name": "Michelle",
+          "last_name": "Brenner",
+          "full_name": "Michelle Brenner",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/MICHELLE.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Main Stage"
+  },
+  {
+    "id": 4656,
+    "start_time": "2026-09-15T11:45:00+02:00",
+    "end_time": "2026-09-15T12:15:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4656,
+      "name": "The End Of Apps",
+      "photo": null,
+      "stage": {
+        "id": 1158,
+        "name": "Main Stage"
+      },
+      "description": "A conference talk transcript where developer Kitze shares his lifelong obsession with productivity apps and to-do systems, tracing his journey from early experiments with text files and Android automation to building his own apps (Benji) and eventually exploring AI personal agents via OpenClaw and Claude Code. He discusses the current frustrations with agent reliability, the mismatch of using Discord/Telegram as a life OS, and his personal experiment building a custom agent UI called Wolver. He predicts that most consumer apps will eventually be replaced by AI-driven operating systems where the AI proactively prompts users rather than the other way around, with on-the-fly generated UIs handling tasks for everyday people.",
+      "start_time": "2026-09-15T11:45:00+02:00",
+      "end_time": "2026-09-15T12:15:00+02:00",
+      "speakers": [
+        {
+          "id": 498574,
+          "first_name": "Kristijan Kitze",
+          "last_name": "Ristovski",
+          "full_name": "Kristijan Kitze Ristovski",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/kitze.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Main Stage"
+  },
+  {
+    "id": 4657,
+    "start_time": "2026-09-15T12:15:00+02:00",
+    "end_time": "2026-09-15T12:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4657,
+      "name": "The Agentic Developer: Orchestrating AI Workflows With Skills and MCPs",
+      "photo": null,
+      "stage": {
+        "id": 1158,
+        "name": "Main Stage"
+      },
+      "description": "The future of development isn't just AI-assisted, it's AI-orchestrated. Explore how to build powerful agentic workflows that transform how developers work, assigning tasks directly to AI agents, leveraging the Model Context Protocol (MCP) ecosystem to extend agent capabilities, and verifying agent work using tools like Playwright.",
+      "start_time": "2026-09-15T12:15:00+02:00",
+      "end_time": "2026-09-15T12:45:00+02:00",
+      "speakers": [
+        {
+          "id": 498582,
+          "first_name": "Debbie",
+          "last_name": "O'Brien",
+          "full_name": "Debbie O'Brien",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/bNhG8DlWVhFkOcNnFVz7mwTVTq1HsCEGe5hm-K6dDxU.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Main Stage"
+  },
+  {
+    "id": 4730,
+    "start_time": "2026-09-15T12:45:00+02:00",
+    "end_time": "2026-09-15T13:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4730,
+      "name": "Building the Software Factory You Actually Need",
+      "photo": null,
+      "stage": {
+        "id": 1158,
+        "name": "Main Stage"
+      },
+      "description": "Rob spent the past year building a software factory with a small team inside CircleCI's engineering org. Getting curious: driving agents, wiring harnesses, living with what broke. He's also watching it play out across CircleCI's customer base: data from thousands of engineering teams, plus direct conversations with the leaders running them, shows a clear and growing divide between who's pulling ahead and who's falling behind.\r\n\r\nIn this talk he'll focus on those experiences and the practical lessons that resulted: what to take off the shelf and what to build yourself, which foundations of software delivery matter more now, and how to get real payoff from the agents you're already running. The aim: get you and your team on the right side of that divide.",
+      "start_time": "2026-09-15T12:45:00+02:00",
+      "end_time": "2026-09-15T13:45:00+02:00",
+      "speakers": [
+        {
+          "id": 528505,
+          "first_name": "Rob",
+          "last_name": "Zuber",
+          "full_name": "Rob Zuber",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/zuber.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Main Stage"
+  },
+  {
+    "id": 4663,
+    "start_time": "2026-09-14T13:45:36.188000+02:00",
+    "end_time": "2026-09-14T14:15:36.188000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4663,
+      "name": "Precision When the Screens Go Dark",
+      "photo": null,
+      "stage": {
+        "id": 1160,
+        "name": "Trough Stage"
+      },
+      "description": "When the screens go dark, what survives? Marin \u0160aban tells the story of a mission where the most advanced technology on board was switched off, and survival came down to the simplest, most thoroughly tested tool \u2014 and one calm, well-trained human. From it he draws five field notes on precision, simplicity and resilience, then shows how Fortuna Entertainment Group lived the same lesson: shutting down its trusted-but-slow ways of working and betting on a simpler, qualified delivery model. You'll leave questioning what in your own stack has truly been tested to destruction.",
+      "start_time": "2026-09-14T13:45:36.188000+02:00",
+      "end_time": "2026-09-14T14:15:36.188000+02:00",
+      "speakers": [
+        {
+          "id": 500085,
+          "first_name": "Marin",
+          "last_name": "Saban",
+          "full_name": "Marin Saban",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/b9e4-0o0o0-7ZWKREpATgYy9EsNJoHsZY.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Trough Stage"
+  },
+  {
+    "id": 4664,
+    "start_time": "2026-09-14T14:15:00+02:00",
+    "end_time": "2026-09-14T14:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4664,
+      "name": "It\u2019s Giving Insecure Vibes: Secure Coding Literacy for Vibe Coders",
+      "photo": null,
+      "stage": {
+        "id": 1160,
+        "name": "Trough Stage"
+      },
+      "description": "Vibe coding has a time and a place: it is great for making quick prototypes, and is very tempting for less technical folks. However, those who don\u2019t understand their own code will be blissfully unaware of the many security vulnerabilities that AI assistants can introduce. In this presentation, I will cover a variety of common vulnerabilities that can be introduced from vibe coding, and then how to recognize and fix them. I will also cover how to prompt genAI tools to code more securely and help you review your code, as well as how to take a hybrid approach with AI-advised coding. This is a crucial topic for anyone venturing into vibe coding, as well as any team leads who are starting to see AI-generated code introduced by more junior members.",
+      "start_time": "2026-09-14T14:15:00+02:00",
+      "end_time": "2026-09-14T14:45:00+02:00",
+      "speakers": [
+        {
+          "id": 498577,
+          "first_name": "Betta",
+          "last_name": "Lyon Delsordo",
+          "full_name": "Betta Lyon Delsordo",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/f3fa-0o0o0-hbmca3ZnnK3bqBq4A9sDoM.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": true,
+    "_stage_name": "Trough Stage"
+  },
+  {
+    "id": 4665,
+    "start_time": "2026-09-14T14:45:20.550000+02:00",
+    "end_time": "2026-09-14T15:15:20.550000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4665,
+      "name": "Use AI to Accelerate the App Release Process",
+      "photo": null,
+      "stage": {
+        "id": 1160,
+        "name": "Trough Stage"
+      },
+      "description": "I will demonstrate how to build an AI-powered pipeline that automates key aspects of the release process.\r\n\r\nKey Points:\r\n\r\n- LLM-Powered Release Notes: use LLMs to automatically generate comprehensive and user-friendly release notes\r\n\r\n- Accelerated Release Process: build an automated pipeline that drastically reduces the time and effort required for application releases\r\n\r\n- Proactive CI/CD Analysis: Discover how AI can analyze pipeline logs to identify potential issues before they cause deployment failures\r\n\r\n- Best Practices: We will cover practical strategies for implementing these technologies, ensuring the AI-generated content is accurate, secure, and aligned with your team's standards.",
+      "start_time": "2026-09-14T14:45:20.550000+02:00",
+      "end_time": "2026-09-14T15:15:20.550000+02:00",
+      "speakers": [
+        {
+          "id": 498580,
+          "first_name": "Teresa",
+          "last_name": "Wu",
+          "full_name": "Teresa Wu",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/97fd-0o0o0-HKubkiS9J5pT2fZnkKGpwz.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Trough Stage"
+  },
+  {
+    "id": 4804,
+    "start_time": "2026-09-14T15:30:00+02:00",
+    "end_time": "2026-09-14T16:00:08.682000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4804,
+      "name": "Seven Habits of a (Mostly) Successful Team",
+      "photo": null,
+      "stage": {
+        "id": 1160,
+        "name": "Trough Stage"
+      },
+      "description": "After five years of trial and error at iBOOD, we\u2019ve distilled what makes a development team truly thrive. Forget rigid frameworks\u2014this talk focuses on seven practical habits for shipping great software while staying motivated.\r\n\r\nBased on real stories rather than theory, we\u2019ll explore:\r\n\r\n* Pragmatic Prioritization: Balancing debt, innovation, and business value.\r\n\r\n* Killing Complexity: Keeping code and processes simple at scale.\r\n\r\n* Radical Ownership: Why autonomy beats heavy process.\r\n\r\n* Relentless Communication: The power of transparency.\r\n\r\n* Microteams: Why small, focused units move faster.\r\n\r\n* Continuous Delivery: Making frequent releases a habit.\r\n\r\n* Joy at Work: Why happy teams build better products.\r\n\r\nGet concrete ideas from our failures and wins to help your team thrive.",
+      "start_time": "2026-09-14T15:30:00+02:00",
+      "end_time": "2026-09-14T16:00:08.682000+02:00",
+      "speakers": [
+        {
+          "id": 498581,
+          "first_name": "Sander",
+          "last_name": "Hoogendoorn",
+          "full_name": "Sander Hoogendoorn",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/sander.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Trough Stage"
+  },
+  {
+    "id": 4667,
+    "start_time": "2026-09-14T16:00:00+02:00",
+    "end_time": "2026-09-14T16:30:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4667,
+      "name": "Building a (Mostly) Reliable AI Research Agent",
+      "photo": null,
+      "stage": {
+        "id": 1160,
+        "name": "Trough Stage"
+      },
+      "description": "Trustworthy research agents make wrongness observable and actionable. This talk is a field report from building a multi-model security research agent for scattered public evidence: docs, blogs, RFCs, source repos, and policy pages. Non-determinism is the core design problem: an antagonist when you need reproducible outputs, but a superpower when you need exploratory research. First, why architecture can make operations more robust without making results more correct, and why different tasks need different model behaviours. Then, what works: source scoping, citation discipline, evidence trails, statistical rigour, operational vs behavioural prompting, durable review, and sandboxed runtimes. Learn how to design agents as (mostly) trustable evidence systems, not stochastic answer machines.",
+      "start_time": "2026-09-14T16:00:00+02:00",
+      "end_time": "2026-09-14T16:30:00+02:00",
+      "speakers": [
+        {
+          "id": 500127,
+          "first_name": "Daniel",
+          "last_name": "Maher",
+          "full_name": "Daniel Maher",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/b77c-0o0o0-W2Gn7kVLLmnttYFUHjKMDC.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": true,
+    "_stage_name": "Trough Stage"
+  },
+  {
+    "id": 4668,
+    "start_time": "2026-09-14T16:30:39.222000+02:00",
+    "end_time": "2026-09-14T17:00:39.222000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4668,
+      "name": "Why a Lot of Software Engineering Is Becoming Engineering Leadership",
+      "photo": null,
+      "stage": {
+        "id": 1160,
+        "name": "Trough Stage"
+      },
+      "description": "The way we build software has been changing now for quite a while, and it\u2019s really important that we acknowledge this shift.\r\n\r\n2 years ago, the software development process was totally different than today, with AI-assisted engineering being the standard in how we build software these days.\r\n\r\nIn this talk, Gregor will share the changes happening to the way engineers work, and the most important skills to focus on.\r\n\r\nThe insights are based on conversations with many engineers and engineering leaders across different companies, both in the EU and the US.",
+      "start_time": "2026-09-14T16:30:39.222000+02:00",
+      "end_time": "2026-09-14T17:00:39.222000+02:00",
+      "speakers": [
+        {
+          "id": 502693,
+          "first_name": "Gregor",
+          "last_name": "Ojstersek",
+          "full_name": "Gregor Ojstersek",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/greg.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": true,
+    "_stage_name": "Trough Stage"
+  },
+  {
+    "id": 4669,
+    "start_time": "2026-09-14T17:00:06.285000+02:00",
+    "end_time": "2026-09-14T17:30:06.285000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4669,
+      "name": "Pricing in the SaaSpocalypse: What We Know, What We Don\u2019t, and What Matters",
+      "photo": null,
+      "stage": {
+        "id": 1160,
+        "name": "Trough Stage"
+      },
+      "description": "The software market is in turmoil. SaaS growth is decelerating, stock prices are tanking, and everyone's blaming AI. But the real story is more complicated.\r\nMost SaaS companies built pricing models that only worked during a specific economic moment: cheap capital, aggressive expansion, customers who renewed automatically. That moment is over. What replaces it is not obvious. AI is collapsing the cost of software delivery while simultaneously making outcomes measurable in ways they never were before. That changes the logic of pricing at its foundation. What do we actually know about how pricing is shifting? Where are we still guessing? And out of everything in motion right now, what should you actually pay attention to?",
+      "start_time": "2026-09-14T17:00:06.285000+02:00",
+      "end_time": "2026-09-14T17:30:06.285000+02:00",
+      "speakers": [
+        {
+          "id": 498576,
+          "first_name": "Emanuel",
+          "last_name": "Martonca",
+          "full_name": "Emanuel Martonca",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/cfb2-0o0o0-4qNvqSCw9Ewn25xhnTQF3H.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Trough Stage"
+  },
+  {
+    "id": 4670,
+    "start_time": "2026-09-14T17:30:08.682000+02:00",
+    "end_time": "2026-09-14T18:00:08.682000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4670,
+      "name": "From compose.yaml to Testcontainers: Testing Kibana With One Line of Java",
+      "photo": null,
+      "stage": {
+        "id": 1160,
+        "name": "Trough Stage"
+      },
+      "description": "Kibana is a powerful tool for exploring data, building dashboards, and interacting with Elasticsearch. But when developers want to include it in automated tests, demos, or reproducible local environments, the setup often involves multiple moving parts: Elasticsearch, security configuration, and the right connection settings.\r\n\r\nIn this session we will see how Testcontainers can turn that setup into a simple and repeatable developer workflow.\r\n\r\nUsing the recently proposed KibanaContainer for Testcontainers Java as a real-world example, we will explore what it takes to make a sophisticated tool easy to start from code. We will walk through the design decisions behind it: automatically pairing with ElasticsearchContainer, connecting to external clusters, handling authentication and TLS, and providing sensible defaults that work well in automated tests.\r\n\r\nFinally, we will see how this approach allows developers to start Kibana from Java with just a few lines of code and use it in integration tests, demos, and reproducible development environments.\r\n\r\nThe result is not just a new container class, but a pattern for turning multi-service setups into clean, developer-friendly APIs.",
+      "start_time": "2026-09-14T17:30:08.682000+02:00",
+      "end_time": "2026-09-14T18:00:08.682000+02:00",
+      "speakers": [
+        {
+          "id": 500080,
+          "first_name": "Piotr",
+          "last_name": "Przybyl",
+          "full_name": "Piotr Przybyl",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/piotr.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Trough Stage"
+  },
+  {
+    "id": 4671,
+    "start_time": "2026-09-15T14:15:40.618000+02:00",
+    "end_time": "2026-09-15T14:45:40.618000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4671,
+      "name": "AI Monitoring Mastery: Optimize Performance, Ensure Compliance, and Revise Costs",
+      "photo": null,
+      "stage": {
+        "id": 1160,
+        "name": "Trough Stage"
+      },
+      "description": "In this talk, we will focus on leveraging AI Monitoring to confidently build and run AI applications with todays most popular languages. You'll learn how to achieve comprehensive observability across your stack to maintain peak performance, ensure compliance, promote quality, and reduce costs. Through hands-on demonstrations and practical exercises, you'll gain insights into best practices for monitoring and managing AI-driven systems, ensuring they are reliable, efficient, and compliant with industry standards. Join us to master the tools and techniques that will empower you to optimize your AI applications and drive business success.",
+      "start_time": "2026-09-15T14:15:40.618000+02:00",
+      "end_time": "2026-09-15T14:45:40.618000+02:00",
+      "speakers": [
+        {
+          "id": 500126,
+          "first_name": "Harry",
+          "last_name": "Kimpel",
+          "full_name": "Harry Kimpel",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/harry.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Trough Stage"
+  },
+  {
+    "id": 4672,
+    "start_time": "2026-09-15T14:45:40.801000+02:00",
+    "end_time": "2026-09-15T15:15:40.801000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4672,
+      "name": "Beyond Bugs: How AI Turns QA Into Full-Cycle Engineers",
+      "photo": null,
+      "stage": {
+        "id": 1160,
+        "name": "Trough Stage"
+      },
+      "description": "The role of QA is rapidly evolving. With AI agents gaining new capabilities through technologies like Model Context Protocol (MCP), testers can move beyond finding bugs to reproducing them, identifying root causes, and even implementing validated fixes. This shift blurs traditional boundaries between QA, frontend, backend, and automation roles, allowing engineers to work across the full product lifecycle. In this talk, we\u2019ll explore how AI can act as a partner from early design discussions through production validation. You\u2019ll see how these workflows improve coverage, speed up delivery, and expand what a single engineer can achieve, reshaping teams and collaboration in an AI-driven world.",
+      "start_time": "2026-09-15T14:45:40.801000+02:00",
+      "end_time": "2026-09-15T15:15:40.801000+02:00",
+      "speakers": [
+        {
+          "id": 498575,
+          "first_name": "Alex",
+          "last_name": "Shershebnev",
+          "full_name": "Alex Shershebnev",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/alex.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Trough Stage"
+  },
+  {
+    "id": 4673,
+    "start_time": "2026-09-15T15:15:34.363000+02:00",
+    "end_time": "2026-09-15T15:45:34.363000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4673,
+      "name": "Digital Sovereignty Isn't a Buzzword: It's an Architecture Decision",
+      "photo": null,
+      "stage": {
+        "id": 1160,
+        "name": "Trough Stage"
+      },
+      "description": "Sovereign AI\" is often pitched as a policy conversation - but for developers, it's a series of architecture decisions made long before any legal team gets involved. In this talk, we break down digital sovereignty into concrete, actionable choices: where your model runs, how your data flows, which dependencies you can swap, and which ones lock you in. We'll show how these decisions shape everything from latency to compliance risk, and why the best time to think about sovereignty is at design time, not deployment time.",
+      "start_time": "2026-09-15T15:15:34.363000+02:00",
+      "end_time": "2026-09-15T15:45:34.363000+02:00",
+      "speakers": [
+        {
+          "id": 500077,
+          "first_name": "Sebastijan",
+          "last_name": "Grabar",
+          "full_name": "Sebastijan Grabar",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/sebastijan.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Trough Stage"
+  },
+  {
+    "id": 4675,
+    "start_time": "2026-09-14T13:45:44.134000+02:00",
+    "end_time": "2026-09-14T14:15:44.134000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4675,
+      "name": "Taste: The Key Advantage With AI",
+      "photo": null,
+      "stage": {
+        "id": 1161,
+        "name": "Crest Stage"
+      },
+      "description": "After five years of trial and error at iBOOD, we\u2019ve distilled what makes a development team truly thrive. Forget rigid frameworks\u2014this talk focuses on seven practical habits for shipping great software while staying motivated.\r\n\r\nBased on real stories rather than theory, we\u2019ll explore:\r\n\r\n* Pragmatic Prioritization: Balancing debt, innovation, and business value.\r\n\r\n* Killing Complexity: Keeping code and processes simple at scale.\r\n\r\n* Radical Ownership: Why autonomy beats heavy process.\r\n\r\n* Relentless Communication: The power of transparency.\r\n\r\n* Microteams: Why small, focused units move faster.\r\n\r\n* Continuous Delivery: Making frequent releases a habit.\r\n\r\n* Joy at Work: Why happy teams build better products.\r\n\r\nGet concrete ideas from our failures and wins to help your team thrive.",
+      "start_time": "2026-09-14T13:45:44.134000+02:00",
+      "end_time": "2026-09-14T14:15:44.134000+02:00",
+      "speakers": [
+        {
+          "id": 500948,
+          "first_name": "Tejas",
+          "last_name": "Kumar",
+          "full_name": "Tejas Kumar",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/tejas.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Crest Stage"
+  },
+  {
+    "id": 4677,
+    "start_time": "2026-09-14T14:15:23.239000+02:00",
+    "end_time": "2026-09-14T14:45:23.239000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4677,
+      "name": "Architecting AI Solutions With Amazon Ads",
+      "photo": null,
+      "stage": {
+        "id": 1161,
+        "name": "Crest Stage"
+      },
+      "description": "How to build AI-powered solutions on top of Amazon Ads. API architecture patterns, AMC orchestration, Stream data pipelines, and how builders apply AI/ML using our products.",
+      "start_time": "2026-09-14T14:15:23.239000+02:00",
+      "end_time": "2026-09-14T14:45:23.239000+02:00",
+      "speakers": [
+        {
+          "id": 502696,
+          "first_name": "Rachael",
+          "last_name": "Alter",
+          "full_name": "Rachael Alter",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/rache.jpg"
+        },
+        {
+          "id": 502692,
+          "first_name": "Kapil",
+          "last_name": "Dwivedi",
+          "full_name": "Kapil Dwivedi",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/kapil.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Crest Stage"
+  },
+  {
+    "id": 4676,
+    "start_time": "2026-09-14T14:45:23.239000+02:00",
+    "end_time": "2026-09-14T15:15:23.239000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4676,
+      "name": "It Depends: The Final and Honest Take on Client-Side AI",
+      "photo": null,
+      "stage": {
+        "id": 1161,
+        "name": "Crest Stage"
+      },
+      "description": "Client-side AI is everywhere. With Transformers.js and WebGPU, we can run ML models directly in the browser.. But should we? In this talk, we'll explore when client-side AI makes sense and when it doesn't. We'll cover the technical foundations, examine real-world use cases, and compare the trade-offs: privacy vs. performance, small models vs. big capabilities, client vs. server. Which tasks belong in the browser, and which belong in the cloud? It depends!",
+      "start_time": "2026-09-14T14:45:23.239000+02:00",
+      "end_time": "2026-09-14T15:15:23.239000+02:00",
+      "speakers": [
+        {
+          "id": 498579,
+          "first_name": "Nico",
+          "last_name": "Martin",
+          "full_name": "Nico Martin",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/e0f8-200o200o2-stnrUBwYF1QNLeaXAYowip.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Crest Stage"
+  },
+  {
+    "id": 4678,
+    "start_time": "2026-09-14T15:15:23.239000+02:00",
+    "end_time": "2026-09-14T15:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4678,
+      "name": "AI Concierge Converting Chats to Cash",
+      "photo": null,
+      "stage": {
+        "id": 1161,
+        "name": "Crest Stage"
+      },
+      "description": "By leveraging authentic AI and an understanding of customer experience across chat and e-commerce, bridging the gap with AI-driven Multi-Channel Platforms is now a reality.\r\n\r\nCombining the power of AI with core channel aggregator components like InfoBip\u2014enables the creation of genuine personal assistants. These AI assistants can fetch and build visual shopping carts via Lulacart tailored specifically to customer criteria.\r\n\r\nWhether shopping directly through a virtual shopping centre center like the Lulucart or via a brand\u2019s custom front-end on social messaging apps, this innovation bridges the gap with traditional chat commerce, fully embracing the next wave of social chat commerce",
+      "start_time": "2026-09-14T15:15:23.239000+02:00",
+      "end_time": "2026-09-14T15:45:00+02:00",
+      "speakers": [
+        {
+          "id": 502789,
+          "first_name": "Craig",
+          "last_name": "McLeod",
+          "full_name": "Craig McLeod",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/craig.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": true,
+    "_stage_name": "Crest Stage"
+  },
+  {
+    "id": 4679,
+    "start_time": "2026-09-14T16:00:00+02:00",
+    "end_time": "2026-09-14T16:30:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4679,
+      "name": "AI Won\u2019t Save Your Productivity \u2013 Human-AI Collaboration Will",
+      "photo": null,
+      "stage": {
+        "id": 1161,
+        "name": "Crest Stage"
+      },
+      "description": "Most AI initiatives don't fail dramatically - they just fade away. \"We're using AI\" isn't the same as \"our engineering teams are shipping better and faster because of it.\"\r\nThis talk highlights what most AI stories skip: focusing on real engineering pain and measuring impact across the delivery pipeline.\r\nWe'll start by identifying concrete challenges - not cool AI demos - like slow code reviews, context switching, on-call overload, or hard-to-find documentation. Then we'll look at designing agentic workflows tied to technical outcomes: reduced lead time, better developer experience, and happier customers.\r\nYou'll see where human judgment and direction are needed and where AI is a real productivity booster. It's the combination of both that generates business impact. Never AI alone.",
+      "start_time": "2026-09-14T16:00:00+02:00",
+      "end_time": "2026-09-14T16:30:00+02:00",
+      "speakers": [
+        {
+          "id": 500411,
+          "first_name": "Chris",
+          "last_name": "Davidson",
+          "full_name": "Chris Davidson",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/chris.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": true,
+    "_stage_name": "Crest Stage"
+  },
+  {
+    "id": 4680,
+    "start_time": "2026-09-14T16:30:00+02:00",
+    "end_time": "2026-09-14T17:00:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4680,
+      "name": "Your Next Phone Call Is Already a Conversation Between Two AI Models",
+      "photo": null,
+      "stage": {
+        "id": 1161,
+        "name": "Crest Stage"
+      },
+      "description": "You know the AI that talks back to you - the chatbots, the assistants. This talk is about the AI you never talk to: the models already running underneath every call, silently rewriting the sound before it reaches your ear. Noise cancellation is the obvious starting point - and even that's widely misunderstood. Then there's packet loss concealment, neural codecs, and models that infer what's happening on a call without ever transcribing a word of it - no GPU warehouse required.\r\n\r\nSoon, a phone call won't be two people talking. It'll be two AI models talking to each other, each generating the audio it thinks the other side wants to hear.",
+      "start_time": "2026-09-14T16:30:00+02:00",
+      "end_time": "2026-09-14T17:00:00+02:00",
+      "speakers": [
+        {
+          "id": 502697,
+          "first_name": "Kosta",
+          "last_name": "Pribic",
+          "full_name": "Kosta Pribic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/kosta_p.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Crest Stage"
+  },
+  {
+    "id": 4681,
+    "start_time": "2026-09-14T17:00:00+02:00",
+    "end_time": "2026-09-14T17:30:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4681,
+      "name": "From Frustrating to Fast: Spec-Driven Development of Integrations With Agentic Skills",
+      "photo": null,
+      "stage": {
+        "id": 1161,
+        "name": "Crest Stage"
+      },
+      "description": "Building integrations is too manual. Even with agentic coding, teams spend days prompting agents to translate API specifications into boilerplate code, mappings, validations and orchestration logic that repeats across projects. In this talk, we\u2019ll explore how an Agentic Skills Framework combined with Spec-Driven Development allows AI to handle repetitive implementation work while engineers stay in control of the critical decisions. Those decisions are captured in reusable specifications that become the source of truth for integration code generation. Through production examples, attendees will learn to accelerate integration delivery from days to hours, reduce repetitive engineering work and apply spec-driven agentic workflows beyond integrations to broader software engineering problems.",
+      "start_time": "2026-09-14T17:00:00+02:00",
+      "end_time": "2026-09-14T17:30:00+02:00",
+      "speakers": [
+        {
+          "id": 498595,
+          "first_name": "Dusan",
+          "last_name": "Omercevic",
+          "full_name": "Dusan Omercevic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/dusan_HzgfGyX.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": true,
+    "_stage_name": "Crest Stage"
+  },
+  {
+    "id": 4682,
+    "start_time": "2026-09-14T17:30:00+02:00",
+    "end_time": "2026-09-14T18:00:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4682,
+      "name": "When Trust Breaks: Rethinking Security in the Open Source Supply Chain",
+      "photo": null,
+      "stage": {
+        "id": 1161,
+        "name": "Crest Stage"
+      },
+      "description": "Open source software runs the world\u2014but it has also become one of the most aggressively targeted attack surfaces. Recent research reveals a sharp rise in attacks exploiting trust in maintainers, package repositories, and automated CI/CD workflows.\r\nThis session explores how everyday open-source practices are being turned into large-scale compromise opportunities, from malicious packages and trusted dependency attacks to the abuse of repository-native features.\r\nAttendees will learn how stronger security defaults, including trusted publishing, 2FA, reproducible builds, and continuous validation, can reduce systemic risk while preserving innovation and moving toward a model where trust is verified rather than assumed.",
+      "start_time": "2026-09-14T17:30:00+02:00",
+      "end_time": "2026-09-14T18:00:00+02:00",
+      "speakers": [
+        {
+          "id": 500949,
+          "first_name": "Lucija",
+          "last_name": "Valentic",
+          "full_name": "Lucija Valentic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/ac67-0o0o0-nc6R42219qYEa1QmaEfrof.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Crest Stage"
+  },
+  {
+    "id": 4687,
+    "start_time": "2026-09-15T14:15:00+02:00",
+    "end_time": "2026-09-15T14:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4687,
+      "name": "An Instant Database Branch for Every Agent",
+      "photo": null,
+      "stage": {
+        "id": 1161,
+        "name": "Crest Stage"
+      },
+      "description": "We are increasingly seeing agents develop software and this new pattern is emerging where every agent work with database branches.\r\n\r\nThis session will discuss benefits of instant branching of Postgres databases regardless of data size and how it works within the Databricks' Lakebase architecture.",
+      "start_time": "2026-09-15T14:15:00+02:00",
+      "end_time": "2026-09-15T14:45:00+02:00",
+      "speakers": [
+        {
+          "id": 529842,
+          "first_name": "Kerem",
+          "last_name": "Durak",
+          "full_name": "Kerem Durak",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/kerem_d.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Crest Stage"
+  },
+  {
+    "id": 4688,
+    "start_time": "2026-09-15T14:45:00+02:00",
+    "end_time": "2026-09-15T15:15:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4688,
+      "name": "The Phased AI Workflow: From Everyday Tasks to Open-Ended Research",
+      "photo": null,
+      "stage": {
+        "id": 1161,
+        "name": "Crest Stage"
+      },
+      "description": "Most agentic work today focuses on coding, where tools need a clear goal - a specification, tasks, and tests - or they stall. At Infobip, we developed a phased workflow spanning everyday tasks, software engineering, and open-ended research: Research, Plan, Task Definition, and Implement. The phases remain constant, while depth, context engineering, and human guidance scale by tier. Most surprisingly, with a human in the loop, the workflow can tackle problems with no known path or answer. In this talk, we show how it improved a decades-old computer graphics baseline through explainable algorithmic changes. After 18 hours and 300+ experiments, it outperformed a modern neural-network approach on its own widely accepted benchmark",
+      "start_time": "2026-09-15T14:45:00+02:00",
+      "end_time": "2026-09-15T15:15:00+02:00",
+      "speakers": [
+        {
+          "id": 502698,
+          "first_name": "Ante",
+          "last_name": "Kapetanovic",
+          "full_name": "Ante Kapetanovic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/be1f-200o200o2-P2TEbmSti1QerPoToENRgd.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Crest Stage"
+  },
+  {
+    "id": 4689,
+    "start_time": "2026-09-15T15:15:00+02:00",
+    "end_time": "2026-09-15T15:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4689,
+      "name": "Beyond Smart Traffic: Building an Edge-Enabled ITS Platform for Safer Cities",
+      "photo": null,
+      "stage": {
+        "id": 1161,
+        "name": "Crest Stage"
+      },
+      "description": "Focused, curious and driven by technology, I lead an engineering team building software products for complex industrial domains. With almost a decade of experience in architecture, product development and team leadership, I enjoy working on large integration systems that span from edge to cloud. Through our platforms, I work at the intersection of intelligent transport systems, video analytics, technical security, critical infrastructure and smart cities - domains where technology has a tangible real-world impact.\r\nProgress often begins with noise, uncertainty and competing priorities. I enjoy turning that complexity into clarity, simplicity and grounded decisions that connect technology with business impact.",
+      "start_time": "2026-09-15T15:15:00+02:00",
+      "end_time": "2026-09-15T15:45:00+02:00",
+      "speakers": [
+        {
+          "id": 500952,
+          "first_name": "Aleksandar",
+          "last_name": "Roksandic",
+          "full_name": "Aleksandar Roksandic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/aleksanadr_r.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Crest Stage"
+  },
+  {
+    "id": 4846,
+    "start_time": "2026-09-14T12:15:00+02:00",
+    "end_time": "2026-09-14T12:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4846,
+      "name": "The Reality of Enterprise AI",
+      "photo": null,
+      "stage": {
+        "id": 1162,
+        "name": "Foam Stage"
+      },
+      "description": "",
+      "start_time": "2026-09-14T12:15:00+02:00",
+      "end_time": "2026-09-14T12:45:00+02:00",
+      "speakers": [
+        {
+          "id": 500541,
+          "first_name": "Ivan",
+          "last_name": "Brezak Brkan",
+          "full_name": "Ivan Brezak Brkan",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/ibb.jpg"
+        },
+        {
+          "id": 529508,
+          "first_name": "Dalibor",
+          "last_name": "Kova\u010devi\u0107",
+          "full_name": "Dalibor Kova\u010devi\u0107",
+          "avatar": null
+        },
+        {
+          "id": 528901,
+          "first_name": "Matija",
+          "last_name": "Razem",
+          "full_name": "Matija Razem",
+          "avatar": null
+        },
+        {
+          "id": 529359,
+          "first_name": "Daniel",
+          "last_name": "Simic",
+          "full_name": "Daniel Simic",
+          "avatar": null
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Foam Stage"
+  },
+  {
+    "id": 4731,
+    "start_time": "2026-09-14T13:45:13.015000+02:00",
+    "end_time": "2026-09-14T14:15:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4731,
+      "name": "When Everything Looks Finished",
+      "photo": null,
+      "stage": {
+        "id": 1162,
+        "name": "Foam Stage"
+      },
+      "description": "When an AI fills a design gap nobody specified, it guesses\u2014and renders that guess with the same confidence as an actual choice. A rough sketch tells you something's unresolved just by looking rough. A generated prototype rarely does. A prototype shows you a flow happening; it can't show you the tab order behind it, or why a pattern means something different across codebases. A static artefact can explain both\u2014a gap you can only catch if what you're working from lets you find the seams. This talk argues a design canvas and production code are complementary materials, not rivals: code is unbeatable at what actually happens, a canvas is better at holding intent and the why behind it. Everyone's arguing the canvas is disappearing\u2014I'll defend where and why it still earns its place.",
+      "start_time": "2026-09-14T13:45:13.015000+02:00",
+      "end_time": "2026-09-14T14:15:00+02:00",
+      "speakers": [
+        {
+          "id": 500079,
+          "first_name": "Hugo",
+          "last_name": "Raymond",
+          "full_name": "Hugo Raymond",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/hugo.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Foam Stage"
+  },
+  {
+    "id": 4732,
+    "start_time": "2026-09-14T14:15:00+02:00",
+    "end_time": "2026-09-14T14:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4732,
+      "name": "Building an Agent Harness: Architecture & Patterns Deep Dive",
+      "photo": null,
+      "stage": {
+        "id": 1162,
+        "name": "Foam Stage"
+      },
+      "description": "An agent demo takes a weekend. An agent integrated into a vertical SaaS product serving 50,000 users takes a serious harness. At Productive we rebuilt ours three times. This talk is a deep dive into the architecture and patterns that survived. Why moving all reasoning into the model drastically improves performance. How the agent explores a huge SaaS domain on demand instead of carrying it in the prompt. How to properly write instructions & prompts and the most common mistakes people make there. How the agent manages its own context as a scarce resource. And the production loop: evals, LLM-based session triage, an agent that vents its frustrations to our Slack and other observability tricks. Real examples and code with a fun interactive demo at the end.",
+      "start_time": "2026-09-14T14:15:00+02:00",
+      "end_time": "2026-09-14T14:45:00+02:00",
+      "speakers": [
+        {
+          "id": 527812,
+          "first_name": "Ivan",
+          "last_name": "Lucin",
+          "full_name": "Ivan Lucin",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/ivan_l.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Foam Stage"
+  },
+  {
+    "id": 4733,
+    "start_time": "2026-09-14T14:45:00+02:00",
+    "end_time": "2026-09-14T15:15:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4733,
+      "name": "Building AI on Your Terms: Open Cloud Infrastructure for Modern AI Workloads",
+      "photo": null,
+      "stage": {
+        "id": 1162,
+        "name": "Foam Stage"
+      },
+      "description": "",
+      "start_time": "2026-09-14T14:45:00+02:00",
+      "end_time": "2026-09-14T15:15:00+02:00",
+      "speakers": [
+        {
+          "id": 527813,
+          "first_name": "Denis",
+          "last_name": "Arnst",
+          "full_name": "Denis Arnst",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/denis.jpg"
+        },
+        {
+          "id": 528297,
+          "first_name": "Iva",
+          "last_name": "Bosotina",
+          "full_name": "Iva Bosotina",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/iva_b.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": true,
+    "_stage_name": "Foam Stage"
+  },
+  {
+    "id": 4734,
+    "start_time": "2026-09-14T15:30:00+02:00",
+    "end_time": "2026-09-14T16:00:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4734,
+      "name": "Chat Is Not the Product: Building AI Interfaces Beyond the Text Box",
+      "photo": null,
+      "stage": {
+        "id": 1162,
+        "name": "Foam Stage"
+      },
+      "description": "Chat made AI accessible, but it won\u2019t be the final interface for most software. Real products need structure, permissions, context, UI, and trust. In this talk, Amir Salihefendic, founder and CEO of Todoist, will share a technical product-builder\u2019s view of what comes after chat. Using productivity workflows as a practical example, he\u2019ll show how AI can move from generating text to helping users act inside and outside the software they already rely on.",
+      "start_time": "2026-09-14T15:30:00+02:00",
+      "end_time": "2026-09-14T16:00:00+02:00",
+      "speakers": [
+        {
+          "id": 498592,
+          "first_name": "AMIR",
+          "last_name": "SALIHEFENDIC",
+          "full_name": "AMIR SALIHEFENDIC",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/amir.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Foam Stage"
+  },
+  {
+    "id": 4735,
+    "start_time": "2026-09-14T16:00:00+02:00",
+    "end_time": "2026-09-14T16:30:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4735,
+      "name": "Psychological Safety Is Not About Being Nice",
+      "photo": null,
+      "stage": {
+        "id": 1162,
+        "name": "Foam Stage"
+      },
+      "description": "When was the last time you told your manager, \u201cI think you\u2019re wrong\u201d? Or admitted a mistake, knowing the response would be curiosity rather than blame?\r\nPsychological safety is often mistaken for being nice or avoiding conflict. In reality, it enables teams to challenge decisions, raise concerns early, admit mistakes, and have difficult conversations before problems become incidents.\r\nIn this talk, we'll explore how leaders unintentionally make honesty feel risky and how their reactions to mistakes, disagreement, bad news, and uncertainty shape the behavior and performance of an entire engineering team.",
+      "start_time": "2026-09-14T16:00:00+02:00",
+      "end_time": "2026-09-14T16:30:00+02:00",
+      "speakers": [
+        {
+          "id": 502691,
+          "first_name": "Marko",
+          "last_name": "Sertic",
+          "full_name": "Marko Sertic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/marko_s.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Foam Stage"
+  },
+  {
+    "id": 4736,
+    "start_time": "2026-09-14T16:30:00+02:00",
+    "end_time": "2026-09-14T17:00:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4736,
+      "name": "The Secret Sauce Behind Viral Growth of Open-Source Tools",
+      "photo": null,
+      "stage": {
+        "id": 1162,
+        "name": "Foam Stage"
+      },
+      "description": "This talk will walk you through the explosive growth of the most popular open-source frameworks. It will show you which best practices they utilized to make sure the developer community hears about their work.",
+      "start_time": "2026-09-14T16:30:00+02:00",
+      "end_time": "2026-09-14T17:00:00+02:00",
+      "speakers": [
+        {
+          "id": 498584,
+          "first_name": "Milica",
+          "last_name": "Maksimovi\u0107",
+          "full_name": "Milica Maksimovi\u0107",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/7d44-0o0o0-sdeSN71u6JLD82PTeZ6P1e.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Foam Stage"
+  },
+  {
+    "id": 4737,
+    "start_time": "2026-09-14T17:00:00+02:00",
+    "end_time": "2026-09-14T17:30:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4737,
+      "name": "Same Playbook, Different Budget: Organizing Shift and DUMP Days",
+      "photo": null,
+      "stage": {
+        "id": 1162,
+        "name": "Foam Stage"
+      },
+      "description": "Talk will be about the differences in organizing the DUMP Days conference; student conference, tight budget, only volounteers envolved, and the Shift conference which has a lot higher budget, professionals on payroll, ...",
+      "start_time": "2026-09-14T17:00:00+02:00",
+      "end_time": "2026-09-14T17:30:00+02:00",
+      "speakers": [
+        {
+          "id": 498600,
+          "first_name": "Stipe",
+          "last_name": "Cigic",
+          "full_name": "Stipe Cigic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/stip_c.jpg"
+        },
+        {
+          "id": 528506,
+          "first_name": "Toma",
+          "last_name": "Sikilic",
+          "full_name": "Toma Sikilic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/toma_s.jpg"
+        },
+        {
+          "id": 528507,
+          "first_name": "Paula",
+          "last_name": "Bonic",
+          "full_name": "Paula Bonic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/paula_b.jpg"
+        },
+        {
+          "id": 528508,
+          "first_name": "Gabriela",
+          "last_name": "Bonic",
+          "full_name": "Gabriela Bonic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/gabriela_b.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Foam Stage"
+  },
+  {
+    "id": 4844,
+    "start_time": "2026-09-14T17:30:00+02:00",
+    "end_time": "2026-09-14T18:00:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4844,
+      "name": "\"What Do I Get?\" \u2013 The Only Question That Survives Every Hype Cycle",
+      "photo": null,
+      "stage": {
+        "id": 1162,
+        "name": "Foam Stage"
+      },
+      "description": "Every hyped technology promises benefits while quietly omitting the cost. NoSQL was \u201cfast and scalable.\u201d Microservices were \u201cflexible.\u201d Both were true \u2013 but both came with complexity that was easy to underestimate. At Sofascore, one question has survived every technology cycle: what, concretely, do I get in exchange for this complexity? This talk turns that question into a practical framework for evaluating new technology: the problem it solves, its real cost, how to test it cheaply, and how to get out if you\u2019re wrong. All illustrated with real Sofascore decisions \u2013 good and bad.",
+      "start_time": "2026-09-14T17:30:00+02:00",
+      "end_time": "2026-09-14T18:00:00+02:00",
+      "speakers": [
+        {
+          "id": 502938,
+          "first_name": "Josip",
+          "last_name": "Stuhli",
+          "full_name": "Josip Stuhli",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/josip_st.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Foam Stage"
+  },
+  {
+    "id": 4738,
+    "start_time": "2026-09-15T14:15:00+02:00",
+    "end_time": "2026-09-15T14:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4738,
+      "name": "Is Learning Dead in the Age of AI?",
+      "photo": null,
+      "stage": {
+        "id": 1162,
+        "name": "Foam Stage"
+      },
+      "description": "When AI can generate a working function from a one-line prompt, it\u2019s tempting to conclude that learning to build software no longer matters. This talk argues the opposite: as AI takes over more of the writing, an engineer\u2019s value shifts to judgment - and judgment is only earned by learning deeply. An LLM will happily hand you code that compiles, passes a quick test, and quietly carries a race condition or a security hole. Catching that requires understanding how the system actually works.\r\nWe\u2019ll look at what changes when AI enters the loop, what stays the same, and why the ability to review, correct, and direct a model matters more than the ability to type the code yourself. Learning isn\u2019t dead in the age of AI - it\u2019s what separates engineers who ship with confidence from those who ship and hope.",
+      "start_time": "2026-09-15T14:15:00+02:00",
+      "end_time": "2026-09-15T14:45:00+02:00",
+      "speakers": [
+        {
+          "id": 498585,
+          "first_name": "TOMA",
+          "last_name": "PULJAK",
+          "full_name": "TOMA PULJAK",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/toma.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Foam Stage"
+  },
+  {
+    "id": 4739,
+    "start_time": "2026-09-15T14:45:00+02:00",
+    "end_time": "2026-09-15T15:15:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4739,
+      "name": "Your AI agents Need a Central Brain, Not Individual Memories",
+      "photo": null,
+      "stage": {
+        "id": 1162,
+        "name": "Foam Stage"
+      },
+      "description": "Coding agents have gotten good at saving the core context of a project so the next session inherits it. But every new project starts cold, and you explain the same things over and over.\r\n\r\nBut what if your context was saved across EVERYTHING you do? What if your preferred patterns emerged from the system and your agents quietly aligned on them? What if correcting an agent once corrected course for every future project? What if the same solution reached past development, into product, sales, marketing and the finances? What if it reached into your life?\r\n\r\nWe don't have to imagine, come along for a show and tell ;)",
+      "start_time": "2026-09-15T14:45:00+02:00",
+      "end_time": "2026-09-15T15:15:00+02:00",
+      "speakers": [
+        {
+          "id": 498593,
+          "first_name": "Luka",
+          "last_name": "Kladaric",
+          "full_name": "Luka Kladaric",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/luka_kl.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Foam Stage"
+  },
+  {
+    "id": 4740,
+    "start_time": "2026-09-15T15:15:00+02:00",
+    "end_time": "2026-09-15T16:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4740,
+      "name": "How to Search Through 800 Billion Records in Real Time",
+      "photo": null,
+      "stage": {
+        "id": 1162,
+        "name": "Foam Stage"
+      },
+      "description": "At ReversingLabs, we process billions of records daily to deliver real-time cybersecurity intelligence. This talk explores the challenges of designing a pipeline to support advanced search capabilities for massive, dynamic datasets. We\u2019ll dive into how we built our pipeline to efficiently gather, process, ingest, and index vast amounts of fragmented metadata, enabling faster and more powerful insights for our users.",
+      "start_time": "2026-09-15T15:15:00+02:00",
+      "end_time": "2026-09-15T16:45:00+02:00",
+      "speakers": [
+        {
+          "id": 500086,
+          "first_name": "Filip",
+          "last_name": "Bacic",
+          "full_name": "Filip Bacic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/filip_b.jpg"
+        },
+        {
+          "id": 502788,
+          "first_name": "Mirano",
+          "last_name": "Tuk",
+          "full_name": "Mirano Tuk",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/mirano.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Foam Stage"
+  },
+  {
+    "id": 4741,
+    "start_time": "2026-09-14T13:45:08.472000+02:00",
+    "end_time": "2026-09-14T14:15:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4741,
+      "name": "When AI Leaves the Chat Window: From Incident Noise to Operational Intelligence",
+      "photo": null,
+      "stage": {
+        "id": 1163,
+        "name": "Swell Stage"
+      },
+      "description": "Production incidents are difficult because key context is spread across monitoring, logs, traces, deployments, tickets, documentation, runbooks, past incidents, and team knowledge. This session presents an AI-assisted Production Incident API for banking operations that gathers and structures this context without replacing engineers or auto-remediating issues. It would help teams identify what happened, what changed, affected services, similar past incidents, and initial checks. The talk covers the API concept, sample outputs, incident flow, benefits, risks, and regulated-environment controls, emphasizing traceable sources, confidence levels, auditability, security, structured responses, and human-owned decisions.",
+      "start_time": "2026-09-14T13:45:08.472000+02:00",
+      "end_time": "2026-09-14T14:15:00+02:00",
+      "speakers": [
+        {
+          "id": 500081,
+          "first_name": "Dino",
+          "last_name": "Mrkonjic",
+          "full_name": "Dino Mrkonjic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/dino_m.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Swell Stage"
+  },
+  {
+    "id": 4750,
+    "start_time": "2026-09-14T14:15:00+02:00",
+    "end_time": "2026-09-14T14:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4750,
+      "name": "One Shift \u2013 Four Realities",
+      "photo": null,
+      "stage": {
+        "id": 1163,
+        "name": "Swell Stage"
+      },
+      "description": "The same cutting-edge tech, the same powerful AI tools, and the same global market are available to everyone. Yet, the answer to \"What is actually worth building?\" depends entirely on who is writing the checks. What does risk look like when you have a massive corporation backing you, versus when you\u2019re launching your third venture, versus when you\u2019re completely bootstrapped with nothing to lose but your own savings? In this panel, CEOs from different corners of the tech world clash realities. They will dissect the shelf-life of modern strategies, share what they\u2019ve stopped doing, and reveal the exact moments they realized an ad-hoc bet paid off. Tune in to discover how to navigate the build-versus-kill dilemma, no matter the size of your war chest.",
+      "start_time": "2026-09-14T14:15:00+02:00",
+      "end_time": "2026-09-14T14:45:00+02:00",
+      "speakers": [
+        {
+          "id": 529000,
+          "first_name": "Leonard",
+          "last_name": "Fabris",
+          "full_name": "Leonard Fabris",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/LEONARD.jpg"
+        },
+        {
+          "id": 529001,
+          "first_name": "Sinisa",
+          "last_name": "Krajnovic",
+          "full_name": "Sinisa Krajnovic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/sinisa_k.jpg"
+        },
+        {
+          "id": 529002,
+          "first_name": "Sven",
+          "last_name": "Marusic",
+          "full_name": "Sven Marusic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/sven_m.jpg"
+        },
+        {
+          "id": 500082,
+          "first_name": "Nikola",
+          "last_name": "Kapraljevic",
+          "full_name": "Nikola Kapraljevic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/5780-0o0o0-Qgy7qxrC6GMJHpHo2t9eNN.jpg"
+        },
+        {
+          "id": 529864,
+          "first_name": "Hrvoje",
+          "last_name": "Bencic",
+          "full_name": "Hrvoje Bencic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/hrvoje_be.jpg"
+        },
+        {
+          "id": 528999,
+          "first_name": "Martina",
+          "last_name": "Sokac Saraga",
+          "full_name": "Martina Sokac Saraga",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/martina_ss.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Swell Stage"
+  },
+  {
+    "id": 4751,
+    "start_time": "2026-09-14T14:45:00+02:00",
+    "end_time": "2026-09-14T15:15:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4751,
+      "name": "The Manager in the Era of AI: Decision-Making Without Delegation",
+      "photo": null,
+      "stage": {
+        "id": 1163,
+        "name": "Swell Stage"
+      },
+      "description": "Every manager's role has three parts: strategist, leader, people manager. For a decade, much of each was information work - gathering data, writing reports, building the case for a decision. AI collapses that cost to near-zero. But that's not where your job ends. That's where it changes.\r\n\r\nA practitioner's report: iOS dev to C-level of a 300-person company, now applying AI across an 80\u2013100-person engineering org. Strategy - modeling five or six scenarios instead of one or two gut reads, and a verification ritual for when AI misleads you. Leadership - why span of control transforms, and the line you never cross. People management - new hiring filters, the junior problem, and the security blind spot most managers miss.\r\n\r\nOnce AI handles the logistics, what is the manager's job for?",
+      "start_time": "2026-09-14T14:45:00+02:00",
+      "end_time": "2026-09-14T15:15:00+02:00",
+      "speakers": [
+        {
+          "id": 502148,
+          "first_name": "Karlo",
+          "last_name": "Levak",
+          "full_name": "Karlo Levak",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/karlo_l.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Swell Stage"
+  },
+  {
+    "id": 4742,
+    "start_time": "2026-09-14T15:30:00+02:00",
+    "end_time": "2026-09-14T16:00:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4742,
+      "name": "REST Delivers. MCP Operates",
+      "photo": null,
+      "stage": {
+        "id": 1163,
+        "name": "Swell Stage"
+      },
+      "description": "REST belongs on the delivery path. MCP belongs around it.\r\n\r\nIn communications systems, message sending, webhooks, and delivery status need explicit contracts, predictable latency, and clear observability. MCP is better suited to the operational work around that core: setup, discovery, troubleshooting, and orchestration. This talk uses messaging systems to separate the data plane from the control plane, and gives a practical framework for deciding when to expose an API, when to expose a tool, and how to keep both safe in production.",
+      "start_time": "2026-09-14T15:30:00+02:00",
+      "end_time": "2026-09-14T16:00:00+02:00",
+      "speakers": [
+        {
+          "id": 500125,
+          "first_name": "Edvin",
+          "last_name": "Teskeredzic",
+          "full_name": "Edvin Teskeredzic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/edvin.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Swell Stage"
+  },
+  {
+    "id": 4747,
+    "start_time": "2026-09-14T16:00:00+02:00",
+    "end_time": "2026-09-14T16:30:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4747,
+      "name": "The AI-Augmented EM: Rebuilding How I Lead",
+      "photo": null,
+      "stage": {
+        "id": 1163,
+        "name": "Swell Stage"
+      },
+      "description": "Three years ago I needed 60 hours to fit into 40. I was the sole leader of a new product at Sofascore, and something had to break. I decided it wouldn't be me.\r\nThis is how I rebuilt an engineering manager's week around AI, in three parts. People: how I grow engineers. Product: how I decide what we build. Projects: how I decide what I stop doing myself.\r\nYou'll leave knowing where AI opens doors that weren't there before, and where you still have to be the one who decides.",
+      "start_time": "2026-09-14T16:00:00+02:00",
+      "end_time": "2026-09-14T16:30:00+02:00",
+      "speakers": [
+        {
+          "id": 498591,
+          "first_name": "TONI",
+          "last_name": "BAKARCIC",
+          "full_name": "TONI BAKARCIC",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/TONI_B.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Swell Stage"
+  },
+  {
+    "id": 4743,
+    "start_time": "2026-09-14T16:30:00+02:00",
+    "end_time": "2026-09-14T17:00:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4743,
+      "name": "Real-World Quantum Computing: What You Can Build Right Now",
+      "photo": null,
+      "stage": {
+        "id": 1163,
+        "name": "Swell Stage"
+      },
+      "description": "Quantum computing can sound like science fiction, but developers can already try it today. This talk skips the heavy physics and focuses on what software engineers need to know: where quantum computing is useful, when it might beat classical approaches, and when it won\u2019t.\r\n\r\nWe\u2019ll cover real use cases in logistics, finance, and optimization; what recent breakthroughs could mean for timelines and RSA encryption; and how to run small experiments on real quantum hardware through cloud platforms. You\u2019ll see what the tools look like, what experiments cost, and a simple example you could try yourself.\r\n\r\nNo quantum background required, just a practical, honest answer to: \u201cIs this relevant to me yet?",
+      "start_time": "2026-09-14T16:30:00+02:00",
+      "end_time": "2026-09-14T17:00:00+02:00",
+      "speakers": [
+        {
+          "id": 498590,
+          "first_name": "EMA",
+          "last_name": "PULJAK",
+          "full_name": "EMA PULJAK",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/ema_p.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Swell Stage"
+  },
+  {
+    "id": 4744,
+    "start_time": "2026-09-14T17:00:00+02:00",
+    "end_time": "2026-09-14T17:30:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4744,
+      "name": "Garbage In, Garbage Out: Engineering Reliable AI Document Extraction Pipelines",
+      "photo": null,
+      "stage": {
+        "id": 1163,
+        "name": "Swell Stage"
+      },
+      "description": "Your OCR problem isn\u2019t really an OCR problem. It\u2019s a pipeline problem. Most document AI pipelines don\u2019t fail because of the model, they fail because of the inputs. When you send your LLMs blurry images, bad crops, and unstructured text, you get high costs, lost context, and unpredictable results. In this session, we'll walk through a real-world end-to-end document extraction pipeline and show how to:\r\n-Enforce image quality at capture\r\n-Extract structured data instead of raw text\r\n-Send smaller, smarter payloads to LLMs",
+      "start_time": "2026-09-14T17:00:00+02:00",
+      "end_time": "2026-09-14T17:30:00+02:00",
+      "speakers": [
+        {
+          "id": 500084,
+          "first_name": "Pierre-Louis",
+          "last_name": "Bonvin",
+          "full_name": "Pierre-Louis Bonvin",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/pierre.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Swell Stage"
+  },
+  {
+    "id": 4745,
+    "start_time": "2026-09-14T17:30:00+02:00",
+    "end_time": "2026-09-14T18:00:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4745,
+      "name": "The Future Writes Itself But You Still Need to Debug It: Observability for AI-Generated Code",
+      "photo": null,
+      "stage": {
+        "id": 1163,
+        "name": "Swell Stage"
+      },
+      "description": "AI assisted coding came a long way from autocomplete to agentic tools that can skaffold full features and entire projects. How can we ensure AI generated code is safe and works as expected?\r\nThe answer is observability, shifted left. What if instrumentation happened at the moment of generation? What if the same LLM writing your code also wired up traces, metrics, and logs using OpenTelemetry? And what if we went further: giving AI agents the ability to deploy, observe runtime behavior, and refine their own output based on real telemetry?\r\n\r\nIn this session, you'll learn how to leverage LLM capabilities to embed observability from the first keystroke, build feedback loops where generated code validates and improves itself, and use OpenTelemetry as your vendor-neutral foundation.",
+      "start_time": "2026-09-14T17:30:00+02:00",
+      "end_time": "2026-09-14T18:00:00+02:00",
+      "speakers": [
+        {
+          "id": 498586,
+          "first_name": "FLORIAN",
+          "last_name": "MAIR",
+          "full_name": "FLORIAN MAIR",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/florian.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Swell Stage"
+  },
+  {
+    "id": 4746,
+    "start_time": "2026-09-15T14:15:00+02:00",
+    "end_time": "2026-09-15T14:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4746,
+      "name": "Vibe Coding: What Happens When Everyone Can Build?",
+      "photo": null,
+      "stage": {
+        "id": 1163,
+        "name": "Swell Stage"
+      },
+      "description": "For decades, companies adapted themselves to software.\r\n\r\nThey bought SaaS tools, changed workflows around product limitations, waited for feature requests, and accepted manual work as part of operating a business. The people closest to the problems often knew exactly how their work should function \u2014 but they could not shape the software itself.\r\n\r\nAI is changing that.\r\n\r\nNon-engineers in sales, operations, finance, HR, and marketing can now prototype workflows, automate repetitive work, connect systems, and build internal tools themselves. The distance between frustration, idea, and working solution collapses from months to hours.\r\n\r\nAt Tendify, Ivan Ivankovi\u0107's team recently shut down four SaaS subscriptions - Calendly, HubSpot, Fathom, Mailchimp - and replaced them with custom-built tools in less than a week, by a single non-engineer. The new tools aren't replacements. They're better: connected to each other, doing exactly what the team needs \u2014 and nothing more.\r\n\r\nThrough Vibe Coding Academy, where Ivan teaches non-engineers to build with AI, he has seen companies move through the same three stages. First, \"we can save money.\" Then, \"we can connect what was never connected before.\" And finally, \"everything is buildable - today.\" What used to be a feature request, answered with \"we'll consider it for our roadmap,\" is now an afternoon task.\r\n\r\nThis talk explores what happens when software creation expands beyond engineering teams - and why the next AI shift may not be developers coding faster, but entire organizations becoming capable of continuously shaping their own systems and workflows.",
+      "start_time": "2026-09-15T14:15:00+02:00",
+      "end_time": "2026-09-15T14:45:00+02:00",
+      "speakers": [
+        {
+          "id": 498594,
+          "first_name": "Ivan",
+          "last_name": "Ivankovic",
+          "full_name": "Ivan Ivankovic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/ivan_i.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Swell Stage"
+  },
+  {
+    "id": 4815,
+    "start_time": "2026-09-15T14:45:45.762000+02:00",
+    "end_time": "2026-09-15T15:15:45.762000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4815,
+      "name": "George - The Story of a Banking App That Grew Up",
+      "photo": null,
+      "stage": {
+        "id": 1163,
+        "name": "Swell Stage"
+      },
+      "description": "We started developing the mobile app for George at Erste Group with a handful developers, supporting one bank, and an architecture designed for a much smaller world.\r\nToday, dozens of engineers work on each mobile platform while the same codebase supports up to ten different George variants across the Erste Group. This talk tells the story of the transformations in between: restructuring the application, rethinking our build systems, scaling CI, and learning where complexity hides when a mobile product becomes an enterprise engineering effort.",
+      "start_time": "2026-09-15T14:45:45.762000+02:00",
+      "end_time": "2026-09-15T15:15:45.762000+02:00",
+      "speakers": [
+        {
+          "id": 529358,
+          "first_name": "Marcel",
+          "last_name": "Zanoni",
+          "full_name": "Marcel Zanoni",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/marcel.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Swell Stage"
+  },
+  {
+    "id": 4806,
+    "start_time": "2026-09-15T15:15:00+02:00",
+    "end_time": "2026-09-15T15:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4806,
+      "name": "How Croatian Business Giants Are Shifting Croatia Forward Through Technology.",
+      "photo": null,
+      "stage": {
+        "id": 1163,
+        "name": "Swell Stage"
+      },
+      "description": "Croatia and the SE region are entering a new phase of technological development, driven by both ambitious new companies and established business leaders with decades of experience.\r\nThis panel brings together technology executives from companies operating across defence, sports technology, telecommunications, industrial engineering and digital services. They will discuss how technology is reshaping their business models, how to compete and scale globally, and what it takes to turn innovation into sustainable business growth.\r\nThe conversation will focus on talent, market expansion, partnerships, collaboration between corporations and startups, and the role of technology in shaping Croatia\u2019s economic future over the next five years.",
+      "start_time": "2026-09-15T15:15:00+02:00",
+      "end_time": "2026-09-15T15:45:00+02:00",
+      "speakers": [
+        {
+          "id": 528512,
+          "first_name": "Stjepan",
+          "last_name": "Sucic",
+          "full_name": "Stjepan Sucic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/STJEPAN_S.jpg"
+        },
+        {
+          "id": 502938,
+          "first_name": "Josip",
+          "last_name": "Stuhli",
+          "full_name": "Josip Stuhli",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/josip_st.jpg"
+        },
+        {
+          "id": 528510,
+          "first_name": "Damir",
+          "last_name": "Prusac",
+          "full_name": "Damir Prusac",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/damir_p.jpg"
+        },
+        {
+          "id": 528511,
+          "first_name": "Jelena",
+          "last_name": "Jurisic",
+          "full_name": "Jelena Jurisic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/JELENA_J.jpg"
+        },
+        {
+          "id": 529360,
+          "first_name": "Sr\u0111an",
+          "last_name": "Kovacevic",
+          "full_name": "Sr\u0111an Kovacevic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/SRDJAN.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Swell Stage"
+  },
+  {
+    "id": 4811,
+    "start_time": "2026-09-14T11:40:41.067000+02:00",
+    "end_time": "2026-09-14T11:45:41.067000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4811,
+      "name": "Stage Opening",
+      "photo": null,
+      "stage": {
+        "id": 1164,
+        "name": "Startup Stage"
+      },
+      "description": "",
+      "start_time": "2026-09-14T11:40:41.067000+02:00",
+      "end_time": "2026-09-14T11:45:41.067000+02:00",
+      "speakers": [
+        {
+          "id": 500538,
+          "first_name": "Lucija",
+          "last_name": "Rei\u0107",
+          "full_name": "Lucija Rei\u0107",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/lucija_r.jpg"
+        },
+        {
+          "id": 500517,
+          "first_name": "Michael",
+          "last_name": "Freer",
+          "full_name": "Michael Freer",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/michael_freer.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Startup Stage"
+  },
+  {
+    "id": 4812,
+    "start_time": "2026-09-14T11:45:28.383000+02:00",
+    "end_time": "2026-09-14T12:15:28.383000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4812,
+      "name": "Stari, You're Not a Startup",
+      "photo": null,
+      "stage": {
+        "id": 1164,
+        "name": "Startup Stage"
+      },
+      "description": "A real startup disrupts the traditional value chain through technology, prioritizes SPEED over PROFIT, and aims for a hockey-stick capitalization curve. If you don't fit that mold, you're a great SMB: go to banks, trade shows, and business clubs instead of VC events.",
+      "start_time": "2026-09-14T11:45:28.383000+02:00",
+      "end_time": "2026-09-14T12:15:28.383000+02:00",
+      "speakers": [
+        {
+          "id": 528708,
+          "first_name": "Nikita",
+          "last_name": "Nathan",
+          "full_name": "Nikita Nathan",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/nikita_oDjoyIp.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Startup Stage"
+  },
+  {
+    "id": 4833,
+    "start_time": "2026-09-14T12:15:28.383000+02:00",
+    "end_time": "2026-09-14T12:45:28.383000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4833,
+      "name": "Build It, Fund It, or Flip It?",
+      "photo": null,
+      "stage": {
+        "id": 1164,
+        "name": "Startup Stage"
+      },
+      "description": "",
+      "start_time": "2026-09-14T12:15:28.383000+02:00",
+      "end_time": "2026-09-14T12:45:28.383000+02:00",
+      "speakers": [
+        {
+          "id": 500514,
+          "first_name": "David",
+          "last_name": "Clark",
+          "full_name": "David Clark",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/david_cl.jpg"
+        },
+        {
+          "id": 529087,
+          "first_name": "Reka",
+          "last_name": "Hidas",
+          "full_name": "Reka Hidas",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/reka_h.jpg"
+        },
+        {
+          "id": 502704,
+          "first_name": "Jure",
+          "last_name": "Mikuz",
+          "full_name": "Jure Mikuz",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/jure_mikuz.jpg"
+        },
+        {
+          "id": 502706,
+          "first_name": "Bernard",
+          "last_name": "Ivezic",
+          "full_name": "Bernard Ivezic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/bernard_i.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Startup Stage"
+  },
+  {
+    "id": 4813,
+    "start_time": "2026-09-14T12:45:28.383000+02:00",
+    "end_time": "2026-09-14T13:15:28.383000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4813,
+      "name": "EU Inc.: Borderless Growth or a Bureaucratic Illusion?",
+      "photo": null,
+      "stage": {
+        "id": 1164,
+        "name": "Startup Stage"
+      },
+      "description": "Operating a startup across 27 different legal systems is Europe\u2019s biggest growth bottleneck. The newly proposed \"EU Inc.\" framework promises a cure: a single, digital-first corporate regime allowing founders to register and scale pan-European companies seamlessly. But will this \"28th regime\" truly unleash borderless growth, or will it just add another layer to Europe\u2019s infamous red tape?",
+      "start_time": "2026-09-14T12:45:28.383000+02:00",
+      "end_time": "2026-09-14T13:15:28.383000+02:00",
+      "speakers": [
+        {
+          "id": 500512,
+          "first_name": "Bo\u017eidar",
+          "last_name": "Pavlovic",
+          "full_name": "Bo\u017eidar Pavlovic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/bozidar.jpg"
+        },
+        {
+          "id": 500518,
+          "first_name": "Marijana",
+          "last_name": "Sarolic",
+          "full_name": "Marijana Sarolic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/1727891567818.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Startup Stage"
+  },
+  {
+    "id": 4814,
+    "start_time": "2026-09-14T14:00:28.383000+02:00",
+    "end_time": "2026-09-14T14:30:28.383000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4814,
+      "name": "Mach 1 from Osijek: Engineering the Lambo of FPV Drones",
+      "photo": null,
+      "stage": {
+        "id": 1164,
+        "name": "Startup Stage"
+      },
+      "description": "Get an exclusive front-row seat with Orqa's Head of Engineering as we unpack what it takes to build best in class drones from Croatia. Going from startup to scaleup - we discover how a lean regional team successfully transformed into a world-class engineering powerhouse that competes with, and beats, global tech giants.",
+      "start_time": "2026-09-14T14:00:28.383000+02:00",
+      "end_time": "2026-09-14T14:30:28.383000+02:00",
+      "speakers": [
+        {
+          "id": 500538,
+          "first_name": "Lucija",
+          "last_name": "Rei\u0107",
+          "full_name": "Lucija Rei\u0107",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/lucija_r.jpg"
+        },
+        {
+          "id": 528986,
+          "first_name": "Toni",
+          "last_name": "Karimovic",
+          "full_name": "Toni Karimovic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/toni_k.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Startup Stage"
+  },
+  {
+    "id": 4845,
+    "start_time": "2026-09-14T14:30:00+02:00",
+    "end_time": "2026-09-14T15:00:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4845,
+      "name": "Croatia, We Have Liftoff: Building Croatia\u2019s Space Startup Ecosystem",
+      "photo": null,
+      "stage": {
+        "id": 1164,
+        "name": "Startup Stage"
+      },
+      "description": "Croatia\u2019s space industry is small, fast-growing, and increasingly connected to the European space economy. This panel brings together founders, ecosystem builders and technology leaders to explore what it takes to turn Croatia\u2019s emerging space sector into a thriving startup ecosystem \u2014 from ESA programs and incubation to commercial opportunities, investment and real-world applications.",
+      "start_time": "2026-09-14T14:30:00+02:00",
+      "end_time": "2026-09-14T15:00:00+02:00",
+      "speakers": [
+        {
+          "id": 502706,
+          "first_name": "Bernard",
+          "last_name": "Ivezic",
+          "full_name": "Bernard Ivezic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/bernard_i.jpg"
+        },
+        {
+          "id": 528906,
+          "first_name": "Monika",
+          "last_name": "Ivanovic",
+          "full_name": "Monika Ivanovic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/MONIKA_I.jpg"
+        },
+        {
+          "id": 502702,
+          "first_name": "Mario",
+          "last_name": "Spadina",
+          "full_name": "Mario Spadina",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/mario_spad.jpg"
+        },
+        {
+          "id": 502703,
+          "first_name": "Jeremija",
+          "last_name": "Hranjec",
+          "full_name": "Jeremija Hranjec",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/jeremija.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Startup Stage"
+  },
+  {
+    "id": 4835,
+    "start_time": "2026-09-14T15:00:44.600000+02:00",
+    "end_time": "2026-09-14T15:30:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4835,
+      "name": "Bankrolled but Backlogged: Funding vs. Traction",
+      "photo": null,
+      "stage": {
+        "id": 1164,
+        "name": "Startup Stage"
+      },
+      "description": "",
+      "start_time": "2026-09-14T15:00:44.600000+02:00",
+      "end_time": "2026-09-14T15:30:00+02:00",
+      "speakers": [
+        {
+          "id": 500516,
+          "first_name": "Vedran",
+          "last_name": "Blagus",
+          "full_name": "Vedran Blagus",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/vedran.jpg"
+        },
+        {
+          "id": 500519,
+          "first_name": "Toomas",
+          "last_name": "Bergamnn",
+          "full_name": "Toomas Bergamnn",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/tomas.jpg"
+        },
+        {
+          "id": 502700,
+          "first_name": "Ghazanfar",
+          "last_name": "Iqbal",
+          "full_name": "Ghazanfar Iqbal",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/ghazanfar.jpg"
+        },
+        {
+          "id": 528701,
+          "first_name": "David",
+          "last_name": "Polach",
+          "full_name": "David Polach",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/david_pola.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Startup Stage"
+  },
+  {
+    "id": 4836,
+    "start_time": "2026-09-14T15:30:00+02:00",
+    "end_time": "2026-09-14T16:00:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4836,
+      "name": "I Bet This Story Will Solve All of Your Problems",
+      "photo": null,
+      "stage": {
+        "id": 1164,
+        "name": "Startup Stage"
+      },
+      "description": "You have a product. You might have a product. You think you might have an idea for a product. No, scrap that. A product is definitely there. But where is everything and everyone else? Customers? Capital? Talent? Media? I've spent almost a decade mingling in the regional ecosystem, talking to startup successes and believers, decision makers and takers, those who consult them and those who console them. I've written news articles, founder profiles, policy proposals, LinkedIn posts, website descriptions about them, for them, despite them. Now, I come back with different armour, and a story that offers both an executive summary of what startups have to deal with today and a guide on how to face it. I bet on you all, and on this story. And if I've bet wrong, feel free to haunt me.",
+      "start_time": "2026-09-14T15:30:00+02:00",
+      "end_time": "2026-09-14T16:00:00+02:00",
+      "speakers": [
+        {
+          "id": 500510,
+          "first_name": "Dina",
+          "last_name": "Hrastovic",
+          "full_name": "Dina Hrastovic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/HRASTOVIC.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Startup Stage"
+  },
+  {
+    "id": 4837,
+    "start_time": "2026-09-14T16:00:00+02:00",
+    "end_time": "2026-09-14T16:30:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4837,
+      "name": "The Atlantic Leap: What It Actually Takes for European Founders to Scale in the US Panel Discussion",
+      "photo": null,
+      "stage": {
+        "id": 1164,
+        "name": "Startup Stage"
+      },
+      "description": "",
+      "start_time": "2026-09-14T16:00:00+02:00",
+      "end_time": "2026-09-14T16:30:00+02:00",
+      "speakers": [
+        {
+          "id": 500513,
+          "first_name": "Vuk",
+          "last_name": "Lau",
+          "full_name": "Vuk Lau",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/vuk_lau.jpg"
+        },
+        {
+          "id": 500538,
+          "first_name": "Lucija",
+          "last_name": "Rei\u0107",
+          "full_name": "Lucija Rei\u0107",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/lucija_r.jpg"
+        },
+        {
+          "id": 528825,
+          "first_name": "Mira",
+          "last_name": "Mihaylova",
+          "full_name": "Mira Mihaylova",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/mira_m.jpg"
+        },
+        {
+          "id": 528700,
+          "first_name": "Filip",
+          "last_name": "Sasic",
+          "full_name": "Filip Sasic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/filip_s.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Startup Stage"
+  },
+  {
+    "id": 4838,
+    "start_time": "2026-09-14T16:30:00+02:00",
+    "end_time": "2026-09-14T17:00:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4838,
+      "name": "Early Bets, Big Outcomes",
+      "photo": null,
+      "stage": {
+        "id": 1164,
+        "name": "Startup Stage"
+      },
+      "description": "Some bets pay off in a term sheet. Some pay off a decade later, in a category nobody else wanted yet. Three CEE investors \u2013 Daniel Gockler (Nesprit), Reka Hidas (Portfolion), and Bozidar Pavlovic (Aymo Ventures) on what they saw early, and what it cost them to be right (or wrong).",
+      "start_time": "2026-09-14T16:30:00+02:00",
+      "end_time": "2026-09-14T17:00:00+02:00",
+      "speakers": [
+        {
+          "id": 500512,
+          "first_name": "Bo\u017eidar",
+          "last_name": "Pavlovic",
+          "full_name": "Bo\u017eidar Pavlovic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/bozidar.jpg"
+        },
+        {
+          "id": 528702,
+          "first_name": "Daniel",
+          "last_name": "Gockler",
+          "full_name": "Daniel Gockler",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/daniel.jpg"
+        },
+        {
+          "id": 529087,
+          "first_name": "Reka",
+          "last_name": "Hidas",
+          "full_name": "Reka Hidas",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/reka_h.jpg"
+        },
+        {
+          "id": 500542,
+          "first_name": "Stefan",
+          "last_name": "Despotovic",
+          "full_name": "Stefan Despotovic",
+          "avatar": null
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Startup Stage"
+  },
+  {
+    "id": 4661,
+    "start_time": "2026-09-13T15:00:17.097000+02:00",
+    "end_time": "2026-09-13T18:00:17.097000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4661,
+      "name": "Badge Pickup",
+      "photo": null,
+      "stage": {
+        "id": 1171,
+        "name": "Side Events"
+      },
+      "description": "Pick up your conference badge and get ready for an unforgettable Shift experience. Visit the registration area to collect your badge, get all the essential information, and start your conference journey.",
+      "start_time": "2026-09-13T15:00:17.097000+02:00",
+      "end_time": "2026-09-13T18:00:17.097000+02:00",
+      "speakers": [],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Side Events"
+  },
+  {
+    "id": 4662,
+    "start_time": "2026-09-13T18:00:11.340000+02:00",
+    "end_time": "2026-09-13T22:00:11.340000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4662,
+      "name": "CroAI x Shift Side Event",
+      "photo": null,
+      "stage": {
+        "id": 1171,
+        "name": "Side Events"
+      },
+      "description": "Join CroAI x Shift Side Event at the University of Zadar for an engaging gathering focused on artificial intelligence, innovation, and the future of technology. Connect with the AI community, exchange ideas, and be part of inspiring discussions alongside fellow developers, researchers, and tech enthusiasts.\r\nRegistration: https://luma.com/97nx8gv7",
+      "start_time": "2026-09-13T18:00:11.340000+02:00",
+      "end_time": "2026-09-13T22:00:11.340000+02:00",
+      "speakers": [],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Side Events"
+  },
+  {
+    "id": 4660,
+    "start_time": "2026-09-13T19:00:45.064000+02:00",
+    "end_time": "2026-09-13T22:00:45.064000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4660,
+      "name": "Infobip Shift x Sedmi Odjel Official Day Zero Event",
+      "photo": null,
+      "stage": {
+        "id": 1171,
+        "name": "Side Events"
+      },
+      "description": "Kick off your Shift experience with an exclusive Day Zero event at the historic Ma\u0161kovi\u0107a Han. Join the community for an evening of networking, inspiring conversations, and a unique atmosphere that brings together technology, innovation, and people before the main conference begins.\r\nREGISTRATION: https://luma.com/lh3hqsq7",
+      "start_time": "2026-09-13T19:00:45.064000+02:00",
+      "end_time": "2026-09-13T22:00:45.064000+02:00",
+      "speakers": [],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Side Events"
+  },
+  {
+    "id": 4818,
+    "start_time": "2026-09-13T19:00:50.683000+02:00",
+    "end_time": "2026-09-13T22:00:50.683000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4818,
+      "name": "Startup Tribe Hangout",
+      "photo": null,
+      "stage": {
+        "id": 1171,
+        "name": "Side Events"
+      },
+      "description": "Startup Tribe is warming up for The Shift!\r\n\r\n\u200bBefore the conference begins, we\u2019re bringing the Tribe together for an easy-going evening of good people, new connections and a few cold craft beers. \r\nWhether you\u2019re building a startup, backing one, coding, creating, investing, or simply part of the tech & startup scene, come hang out and meet the people behind the ecosystem.\r\nNo pitches. No pressure. Just the Tribe, good conversations and a proper warm-up before The Shift.\r\nCapacity is limited - register to join us.\r\nSee you there!\r\nBrlog cooperative brewery, taproom & shop FROM 7:00 PM\r\nREGISTRATION: https://luma.com/kmgiflh5",
+      "start_time": "2026-09-13T19:00:50.683000+02:00",
+      "end_time": "2026-09-13T22:00:50.683000+02:00",
+      "speakers": [],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "Side Events"
+  },
+  {
+    "id": 4758,
+    "start_time": "2026-09-14T11:45:32.732000+02:00",
+    "end_time": "2026-09-14T13:45:32.732000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4758,
+      "name": "AI-Assisted Debugging on the JVM",
+      "photo": null,
+      "stage": {
+        "id": 1181,
+        "name": "WORKSHOP 1"
+      },
+      "description": "Have you tried using AI coding assistants not to write code, but to debug it? You might've noticed their effectiveness improves when they have access to runtime context.\r\n\r\nIn this talk, we'll explore how to provide runtime data to AI agents on the JVM, both during local debugging and in production-like environments. We'll compare several approaches, including traditional debugging, code coverage, program execution traces, and runtime snapshots collected with conditional tracepoints.\r\n\r\nYou will learn how to debug with AI more efficiently, not only locally but also on production systems.",
+      "start_time": "2026-09-14T11:45:32.732000+02:00",
+      "end_time": "2026-09-14T13:45:32.732000+02:00",
+      "speakers": [
+        {
+          "id": 500083,
+          "first_name": "Nikita",
+          "last_name": "Koval",
+          "full_name": "Nikita Koval",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/nikita.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "WORKSHOP 1"
+  },
+  {
+    "id": 4759,
+    "start_time": "2026-09-14T13:45:19.257000+02:00",
+    "end_time": "2026-09-14T15:45:19.257000+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4759,
+      "name": "Building Spring AI Agents on Amazon Bedrock AgentCore",
+      "photo": null,
+      "stage": {
+        "id": 1181,
+        "name": "WORKSHOP 1"
+      },
+      "description": "Creating an AI agent is easy; operating it reliably in production is not. Production-grade agents must scale to large user bases, integrate with internal and external tools, and meet security, observability, and resilience requirements. This session demonstrates how to deploy Spring AI applications on Amazon Bedrock AgentCore and leverage its built-in capabilities. Learn how to integrate short- and long-term memory, implement the Tool Search pattern using the AgentCore gateway, and propagate user identity across services. Discover how to monitor agents with OpenTelemetry and evaluate their performance using on-demand and online techniques. The talk also introduces the community-driven spring-ai-agentcore SDK, simplifying production-ready deployments for engineers and architects.",
+      "start_time": "2026-09-14T13:45:19.257000+02:00",
+      "end_time": "2026-09-14T15:45:19.257000+02:00",
+      "speakers": [
+        {
+          "id": 502695,
+          "first_name": "Andrei",
+          "last_name": "Shakirin",
+          "full_name": "Andrei Shakirin",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/andrei.jpg"
+        },
+        {
+          "id": 529225,
+          "first_name": "Filip",
+          "last_name": "Srnec",
+          "full_name": "Filip Srnec",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/filip_s_CRpYDtv.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "WORKSHOP 1"
+  },
+  {
+    "id": 4808,
+    "start_time": "2026-09-14T15:45:52.807000+02:00",
+    "end_time": "2026-09-14T16:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4808,
+      "name": "Agentic Hotel Pricing: Building Alert-Worthy Revenue Agents With MCP and the Claude Agent SDK",
+      "photo": null,
+      "stage": {
+        "id": 1181,
+        "name": "WORKSHOP 1"
+      },
+      "description": "Hotel demand shifts by the hour, but pricing decisions still wait for someone to notice and act. In this hands-on workshop, you'll build an MCP server that exposes a live pricing/demand engine as tools, then wire it into a stateful Claude agent - built with Anthropic's Agent SDK - that decides whether, when, and how to alert a revenue manager when a real pricing opportunity or risk fires (e.g. a demand spike or an unfilled block).\r\n\r\nUsing the Agent SDK's built-in permissions, you'll gate the \"send alert\" action behind human approval, and use sessions so the agent never re-alerts on the same signal twice. You'll also add an evals step to prove alerts are actually actionable, not just noisy. Leave with a working signal-to-recommendation agent pattern you can adapt to your own systems.",
+      "start_time": "2026-09-14T15:45:52.807000+02:00",
+      "end_time": "2026-09-14T16:45:00+02:00",
+      "speakers": [
+        {
+          "id": 502615,
+          "first_name": "Bruno",
+          "last_name": "Buli\u0107",
+          "full_name": "Bruno Buli\u0107",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/bruno_b.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "WORKSHOP 1"
+  },
+  {
+    "id": 4762,
+    "start_time": "2026-09-14T13:45:13.313000+02:00",
+    "end_time": "2026-09-14T17:45:00+02:00",
+    "type": "STAGE_SEGMENT",
+    "stage_segment": {
+      "id": 4762,
+      "name": "Vibe Coding: How Non-Engineers Build Production Software in Hours",
+      "photo": null,
+      "stage": {
+        "id": 1182,
+        "name": "WORKSHOP 2"
+      },
+      "description": "For decades, companies adapted themselves to software.\r\n\r\nThey bought SaaS tools, changed workflows around product limitations, waited for feature requests, and accepted manual work as part of operating a business. The people closest to the problems often knew exactly how their work should function \u2014 but they could not shape the software itself.\r\n\r\nAI is changing that.\r\n\r\nNon-engineers in sales, operations, finance, HR, and marketing can now prototype workflows, automate repetitive work, connect systems, and build internal tools themselves. The distance between frustration, idea, and working solution collapses from months to hours.\r\n\r\nAt Tendify, Ivan Ivankovi\u0107's team recently shut down four SaaS subscriptions - Calendly, HubSpot, Fathom, Mailchimp - and replaced them with custom-built tools in less than a week, by a single non-engineer. The new tools aren't replacements. They're better: connected to each other, doing exactly what the team needs \u2014 and nothing more.\r\n\r\nThrough Vibe Coding Academy, where Ivan teaches non-engineers to build with AI, he has seen companies move through the same three stages. First, \"we can save money.\" Then, \"we can connect what was never connected before.\" And finally, \"everything is buildable - today.\" What used to be a feature request, answered with \"we'll consider it for our roadmap,\" is now an afternoon task.\r\n\r\nThis talk explores what happens when software creation expands beyond engineering teams - and why the next AI shift may not be developers coding faster, but entire organizations becoming capable of continuously shaping their own systems and workflows.",
+      "start_time": "2026-09-14T13:45:13.313000+02:00",
+      "end_time": "2026-09-14T17:45:00+02:00",
+      "speakers": [
+        {
+          "id": 498594,
+          "first_name": "Ivan",
+          "last_name": "Ivankovic",
+          "full_name": "Ivan Ivankovic",
+          "avatar": "https://confiva-prod.s3.amazonaws.com/avatars/ivan_i.jpg"
+        }
+      ],
+      "can_schedule": true
+    },
+    "is_scheduled": false,
+    "_stage_name": "WORKSHOP 2"
+  }
+]
